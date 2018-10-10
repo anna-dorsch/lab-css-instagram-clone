@@ -6,5 +6,114 @@ light blue: #1c5380
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
+  margin: 15px;
+  background-image: url(../images/bgtile.png);
+  background-repeat: repeat-x;
+  
+}
+
+span {
+  font-weight:500;
+}
+
+.content{
+  width: 70%;
+  margin: 70px auto;
+  display: flex;
+}
+
+.phones{
+  background-image: url(../images/phones.png);
+  width: 50%;
+  height: 510px;
+  background-repeat: no-repeat;
+  flex-direction: row ltr;
+}
+
+.branding{
+  background-image: url(../images/brand.png);
+  background-repeat:no-repeat;
+  height: 80px;
+  width: 350px;
+  flex: row ltr;
+}
+
+.home{
+  background-image: url(../images/home.png);
+  background-repeat: no-repeat;
+  height: 30px;
+  width: 30px;
+  flex: row;
+}
+
+.information{
+  
+  width: 50%;
+  height: 510px;
+  display: flex;
+  flex-wrap: wrap;
+  
+  
+}
+
+.frame{
+  background-image:url(../images/frame.png);
+  background-repeat: no-repeat;
+}
+
+.information h2 {
+  margin: 20px 30px;
+
+}
+.information p {
+  margin: 20px 30px;
+  color: black;
+  font-weight: 300;
+}
+
+.buttons{
+ width: 100%;
+margin: 0 auto;
+display:flex;
+
+}
+
+.button1{
+ 
+  background-image:url(../images/badge-iphone.png);
+width: 50%;
+height: 50px;
+margin: 0 30px;
+background-repeat: no-repeat;
+flex-direction: row ltr;
+
+}
+
+.button2{
+  background-image:url(../images/badge-android.png);
+width: 50%;
+height: 50px;;
+margin: 0 30px;
+background-repeat: no-repeat;
+
+
+}
+
+.menu {
+  text-align: center;
+}
+
+.menu button{
+  color:#1c5380;
+  font-weight: 500;
+  font-size: 12px;
+  margin: 0 auto;
+
+  text-transform: uppercase;
+  border: none;
+  background-color: white;
+}
+
+.menu span{
+  color:grey;
 }
